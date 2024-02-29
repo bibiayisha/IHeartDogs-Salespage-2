@@ -1,0 +1,196 @@
+
+/* body css */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.5px !important;
+    font-family: Inter;
+}
+button{
+    cursor: pointer;
+}
+p{
+    overflow-wrap: break-word;
+}
+a, a:hover{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+/* global css */
+/* colors */
+.med-text{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+.red{
+    color: #DB281C;
+}
+.bg-red{
+    background-color: #DB281C;
+}
+.bg-lightred{
+    background-color: #db281c0d
+}
+.bg-offred{
+    background-color: #FCF5F5;
+}
+.white{
+    color: white;
+}
+.black{
+    color: black;
+}
+.yellow{
+    color: #FFD814;
+}
+.bg-white{
+    background-color: white;
+}
+.round{
+    border-radius: 100px;
+    border-width: 0px;
+}
+.blend{
+    mix-blend-mode: screen;
+}
+.text-decoration-underline{
+    text-decoration: underline;
+}
+.w-30{
+    width: 30%;
+    margin: auto;
+}
+.w-85{
+    width: 85%;
+    margin: auto;
+}
+.w-60{
+    width: 60%;
+    margin: auto;
+}
+/* Header  */
+.header h3{
+    font-size: 22px;
+    line-height: 36px;
+}
+.header h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.header h1{
+    line-height: 67px;
+    font-size: 43px;
+    font-weight: 700;
+}
+.favicon{
+    top: 5%;
+}
+.favicon-r{
+    top: 20px;
+    right: 0px;
+    opacity: 10%;
+    z-index: 100    ;
+}
+.favicon-c{
+    top: 50%;
+    transform: translateY( -50%);
+}
+.red-border{
+    border: #DB281C 1px solid;
+}
+
+/* section 1 */
+.sec-1 p , .sec-2 p, .sec-3 p, .sec-4 .sec-41 p, .sec-5 p, .sec-6 p, .sec-7 p, .sec-9 p, .sec-10 p, .sec-11 p, .sec-12 p, .sec-14 p, .sec-15 p, .sec-16 p, .sec-18 p, .sec-20 p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* section 2  */
+.sec-2 h2, .sec-3 h2, .sec-4 .sec-42 h2, .sec-9 h2, .sec-10 h2, .sec-11 h2, .sec-16 h2, .sec-20 h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.red-border-top{
+    border-top: 6px solid #DB281C;
+}
+
+/* section 3  */
+.sec-3 .sec-31 p{
+    font-weight: 700;
+    font-size: 40px;
+}
+.sec-3 .sec-32 p{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 0 !important;
+}
+
+/* section 4  */
+.sec-4 .sec-42 p{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 0 !important;
+}
+
+/* section 7  */
+.sec-7 h3, .sec-10 h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* section 8  */
+.sec-8 p{
+    font-weight: 400;
+    font-size: 25px; 
+}
+/* section 14  */
+.sec-14 h2{
+    font-weight: 700;
+    font-size: 48px;  
+}
+/* section 15  */
+.sec-15 .review{
+    font-size: 25px;
+}
+.sec-15 h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+/* section 17  */
+.sec-17 .pkg-text{
+    font-size: 26px ;
+    font-weight: 400;
+}
+.sec-17 .card-btn{
+    font-size: 34px ;
+    font-weight: 700;
+}
+
+.gray-text{
+    text-decoration: line-through;
+    color: #808080;
+    font-size: 23px;
+    font-weight: 400;
+}
+.shadow-class{
+    box-shadow: 0 5.903148174285889px 5.903148174285889px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+/* responsiveness 
+@media (max-width: 768px) {
+    .small-img {
+      width: 50% !important;
+    }
+  } */
+
+
+  .section.full .section_row {
+    max-width: 100%; 
+}
+.custom{
+margin:0 !important;}
+.main_wrapper_main{
+    padding:0  !important;}
